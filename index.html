@@ -1,0 +1,79 @@
+<html>
+
+    <head>
+    
+        <title>Calculator</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <meta charset="utf-8">
+    
+    </head>
+    
+    <body>
+    
+        
+        
+        <div id="calculator">
+            
+            <p id="label">v0.2</p>
+            
+            <input id="output" disabled>
+        
+            <ul>
+            
+                <li><a onclick="store()">STO</a></li>
+                <li><a onclick="restore()">RES</a></li>
+                <li><a onclick="clearmemory()">CLR</a></li>
+                <li><a onclick="pi()">π</a></li>
+            
+            </ul>
+            
+            <ul>
+        
+                <li><a onclick="equationadd(7)">7</a></li>
+                <li><a onclick="equationadd(8)">8</a></li>
+                <li><a onclick="equationadd(9)">9</a></li>
+                <li><a onclick="addition()">+</a></li>
+
+            </ul>
+
+            <ul>
+
+                <li><a onclick="equationadd(4)">4</a></li>
+                <li><a onclick="equationadd(5)">5</a></li>
+                <li><a onclick="equationadd(6)">6</a></li>
+                <li><a onclick="subtraction()">-</a></li>
+
+            </ul>
+
+            <ul>
+
+                <li><a onclick="equationadd(1)">1</a></li>
+                <li><a onclick="equationadd(2)">2</a></li>
+                <li><a onclick="equationadd(3)">3</a></li>
+                <li><a onclick="multiplication()">x</a></li>
+                
+            </ul>
+
+            <ul>
+
+                <li><a onclick="equationadd(0)">0</a></li>
+                <li><a onclick="decimal()">.</a></li>
+                <li><a onclick="caret()">^</a></li>
+                <li><a onclick="division()">/</a></li>
+            </ul>
+
+            <ul>
+                <li><a onclick="parenopen()">(</a></li>
+                <li><a onclick="parenclose()">)</a></li>
+                <li><a onclick="answer()">=</a></li>
+                <li><a onclick="c()">C</a></li>
+
+            </ul>
+
+        </div>
+    
+        <script src="functions.js"></script>
+        
+    </body>
+
+</html>

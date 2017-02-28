@@ -1,0 +1,73 @@
+body {
+    font-family:"Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: 100;
+    margin:0;
+    padding:0;
+    background:none;
+}
+
+#calculator {
+    width:400;
+    height:650;
+    background:#888888;
+    border-radius:15px;
+    -webkit-box-shadow: 12px 13px 13px -8px rgba(0,0,0,0.31);
+    -moz-box-shadow: 12px 13px 13px -8px rgba(0,0,0,0.31);
+    box-shadow: 12px 13px 13px -8px rgba(0,0,0,0.31);
+}
+
+#label {
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+
+ul {
+    list-style-type: none;
+    margin:0 30px;
+    padding:0;
+}
+
+a {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+    supported by Chrome and Opera */
+}
+
+input {
+    width:360px;
+    height:56px;
+    padding:20px;
+    float:right;
+    font-size: 30px;
+    text-align:right;
+    margin:14px;
+    background-color:#80b299;
+    font-family:"Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight:500;
+}
+
+a {
+    width:60px;
+    height:56px;
+    border-bottom:4px solid #999;
+    display:inline-block;
+    text-align: center;
+    position:relative;
+    padding:6px;
+    float:left;
+    background:#ccc;
+    border-radius:8px;
+    margin:6;
+    cursor:pointer;
+    font-size:30px;
+}
+
+a:active {
+    border-top:4px solid #888;
+    border-bottom:none;
+}
